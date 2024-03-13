@@ -1,4 +1,4 @@
-
+/* Montserrat */
 @font-face {
     font-family: "Montserrat";
     src: url(../fonts/Montserrat/Montserrat-Black.ttf);
@@ -25,6 +25,7 @@
     font-weight: 400;
 }
 
+/*  Trebuchet */
 
 @font-face {
     font-family: "Trebuchet";
