@@ -15,7 +15,6 @@
 </head>
 <body>
 
-
     <!-- SITE-HEADER-HERO -->
 
     <div class="site-header-hero">
@@ -27,8 +26,7 @@
                     <span class=" header-menu__line"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center gap-4">
-                    
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center gap-4">  
                       <li class="nav-item">
                         <a class="nav-link header-nav__link" href="#">About me</a>
                       </li>
@@ -221,8 +219,8 @@
         <div class="container">
           <h2 class="work-title title text-center">My Works</h2>
           <div class="row">
-            <div class="col-3">
-              <div class="list-group" id="list-tab" role="tablist">
+            <div class="col-12 col-lg-3 my-3">
+              <div class="list-group work-group" id="list-tab" role="tablist">
                 <a class="list-group-item list-group-item-action work-list__group active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Nike</a>
                 <a class="list-group-item list-group-item-action work-list__group" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Vue Cinema</a>
                 <a class="list-group-item list-group-item-action work-list__group" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Blue marketing</a>
@@ -232,16 +230,16 @@
 
               </div>
             </div>
-            <div class="col-9">
+            <div class="col-12 col-lg-9 my-3">
               <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane work-tab__pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
                   <div class="row">
-                    <div class="col-xl-3">
+                    <div class="col-12 col-lg-3 col-xl-3 d-none d-lg-block">
                       <div class="work-image">
                         <img src="./img/nike1.png" alt="Project image" class="work-image__item w-100 h-100">
                       </div>
                     </div>
-                    <div class="col-xl-9">
+                    <div class="col-12 col-lg-9 col-xl-9">
                       <div class="work-desc">
                         <h3 class="work-desc__title">NIKE Layout</h3>
                         <p class="work-desc__text">
@@ -361,6 +359,34 @@ nunc. Eget nunc eget lectus amet feugiat lobortis sit sit non eu. Nunc, mauris v
       </section>
     </main>
      <!-- SITE-MAIN -->
+
+     <!-- SITE-FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row justify-content-start justify-content-lg-end">
+          <div class="col-12 col-lg-6 col-xl-6 text-center">
+              <a href="#!" class="logo"></a>
+              <ul class="footer-list flex-column flex-md-row d-md-flex justify-content-evenly">
+                <li class="footer-item">
+                  <a href="#!" class="footer-link">about Me</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#!" class="footer-link">Works</a>
+                </li>
+                <li class="footer-item">
+                  <a href="#!" class="footer-link">Contacts</a>
+                </li>
+              </ul>
+
+              <div class="footer-contact d-flex justify-content-evenly">
+                <a href="tel:998978665050" class="footer-phone">(97) 866-50-50</a>
+                <a href="mailto:itlive@gmail.com" class="footer-mail">itlive@gmail.com</a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+     <!-- SITE-FOOTER -->
 
     <!-- bootstrap script file -->
     <script src="./libs/bootstrap.bundle.min.js"></script>
