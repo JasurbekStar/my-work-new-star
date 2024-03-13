@@ -1,7 +1,4 @@
 @import url(./fonts.css);
-
-/* CUSTOM PROPS */
-
 :root {
   --primary-color: #7177f1;
   --body: #151437;
@@ -15,7 +12,7 @@
   --Trebuchet: "Trebuchet";
 }
 
-/* GLOBAL STYLES */
+
 
 *,
 *::before,
