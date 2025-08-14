@@ -410,7 +410,7 @@ body {
   text-transform: capitalize;
 }
 .work-desc__text {
-  color: var(--text-color);
+  color: white;
   font-family: var(--Montserrat);
   font-size: 16px;
   font-weight: 400;
